@@ -2,6 +2,7 @@ sequenceDiagram
     participant user
     participant browser
     participant server
+
     user->>browser: Writes note and clicks Save
     Note right of browser: The browser captures the input and prepares an HTTP POST request
 
